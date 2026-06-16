@@ -36,14 +36,14 @@ O objetivo é demonstrar como técnicas de Inteligência Artificial podem auxili
 
 ## Dataset Utilizado
 
-Dataset: Chest X-Ray Images (Pneumonia)
-Origem: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
-Características:
-   •	Imagens de radiografia de tórax;
-   •	Duas classes:
-      o	NORMAL
-      o	PNEUMONIA
-   •	Conjuntos separados em treino, validação e teste.
+Dataset: Chest X-Ray Images (Pneumonia) <br>
+Origem: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia <br>
+Características: <br>
+   •	Imagens de radiografia de tórax; <br>
+   •	Duas classes: <br>
+      o	NORMAL <br>
+      o	PNEUMONIA <br>
+   •	Conjuntos separados em treino, validação e teste. <br><br>
 
 
 ## Tecnologias Utilizadas
@@ -62,14 +62,14 @@ Características:
 ## 📁 Estrutura
 
 ```
-├── wokwi/
-│   ├── sketch.ino              # Código ESP32
-│   ├── diagram.json            # Diagrama Wokwi
-│   └── libraries.txt           # Bibliotecas
-├── node-red/
-│   └── flows.json              # Fluxo Node-RED
-├── RELATORIO_CARDIO_IA.md      # Fluxo e Resiliência
-├── RELATORIO_MQTT_DASHBOARD.md # MQTT e Dashboard
+├── fase4/
+├── dataset/
+│   └── chest_xray              # pasta das imagens
+├── relatorios/
+│   └── relatorio_fase4.pdf
+├── README.md      #
+├── preprocessamento.ipynb
+├── cnn_classificacao.ipynb
 └── README.md
 ```
 
