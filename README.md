@@ -25,25 +25,37 @@
 
 ## 📜 Descrição
 
-CardioIA é um **sistema IoT de monitoramento cardiológico** com ESP32, MQTT em nuvem (HiveMQ) e dashboard Node-RED em tempo real. Foca em **resiliência**: reconexão automática, retry contínuo e comunicação segura com TLS.
+Nesta fase do projeto CardioIA foi desenvolvido um protótipo de Visão Computacional para classificação de imagens médicas.
+A solução utiliza Redes Neurais Convolucionais (CNNs) para analisar radiografias de tórax e identificar padrões associados à pneumonia. Foram implementadas duas abordagens distintas:
+   •	CNN desenvolvida do zero;
+   •	Transfer Learning utilizando MobileNetV2.
+O objetivo é demonstrar como técnicas de Inteligência Artificial podem auxiliar na análise de exames médicos e apoiar processos de tomada de decisão.
 
-**Stack:**
-- Hardware: ESP32-S2 + DHT22 + Botão
-- Comunicação: MQTT TLS/SSL (8883)
-- Visualização: Node-RED + Dashboard
-- Simulação: Wokwi
-
-**Latência:** ~150-200ms | **Taxa:** ~20 msg/min | **Dados:** ~4.3 MB/dia
 
 ---
 
-## Parte 1 – ESP32: Coleta e Transmissão MQTT
+## Dataset Utilizado
 
-Coleta dados a cada 3s e publica em `cardioia/dados`. Implementa reconexão infinita com retry a cada 2s.
+Dataset: Chest X-Ray Images (Pneumonia)
+Origem: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+Características:
+   •	Imagens de radiografia de tórax;
+   •	Duas classes:
+      o	NORMAL
+      o	PNEUMONIA
+   •	Conjuntos separados em treino, validação e teste.
 
-## Parte 2 – Node-RED: Dashboard em Tempo Real
 
-Consome MQTT, processa JSON e atualiza gráficos + medidores em <200ms. Alerta para BPM > 120.
+## Tecnologias Utilizadas
+
+   •	Python 3.11
+   •	TensorFlow
+   •	Keras
+   •	NumPy
+   •	Matplotlib
+   •	Scikit-Learn
+   •	Jupyter Notebook
+   •	PyCharm
 
 ---
 
