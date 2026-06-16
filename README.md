@@ -25,11 +25,11 @@
 
 ## 📜 Descrição
 
-Nesta fase do projeto CardioIA foi desenvolvido um protótipo de Visão Computacional para classificação de imagens médicas.
-A solução utiliza Redes Neurais Convolucionais (CNNs) para analisar radiografias de tórax e identificar padrões associados à pneumonia. Foram implementadas duas abordagens distintas:
-   •	CNN desenvolvida do zero;
-   •	Transfer Learning utilizando MobileNetV2.
-O objetivo é demonstrar como técnicas de Inteligência Artificial podem auxiliar na análise de exames médicos e apoiar processos de tomada de decisão.
+Nesta fase do projeto CardioIA foi desenvolvido um protótipo de Visão Computacional para classificação de imagens médicas.<br>
+A solução utiliza Redes Neurais Convolucionais (CNNs) para analisar radiografias de tórax e identificar padrões associados à pneumonia. Foram implementadas duas abordagens distintas:<br><br>
+   •	CNN desenvolvida do zero;<br>
+   •	Transfer Learning utilizando MobileNetV2.<br>
+O objetivo é demonstrar como técnicas de Inteligência Artificial podem auxiliar na análise de exames médicos e apoiar processos de tomada de decisão.<br>
 
 
 ---
@@ -75,25 +75,43 @@ Características: <br>
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Execução
 
-1. **Wokwi:** Abra `diagram.json` em [wokwi.com](https://wokwi.com)
-2. **Node-RED:** Importe `flows.json` e acesse `http://localhost:1880/ui`
-3. **Arduino:** Compile e envie `sketch.ino` para o ESP32
+1. Instalar dependências <br>
+pip install tensorflow <br>
+pip install numpy <br>
+pip install matplotlib <br>
+pip install scikit-learn <br>
+pip install notebook <br><br>
+
+2. Executar o notebook de pré-processamento <br>
+preprocessamento.ipynb <br><br>
+
+3. Executar o notebook de classificação <br>
+cnn_classificacao.ipynb <br>
 
 ---
 
 ## 📚 Documentação
 
-- [RELATORIO_CARDIO_IA.md](RELATORIO_CARDIO_IA.md) - Análise técnica completa
-- [RELATORIO_MQTT_DASHBOARD.md](RELATORIO_MQTT_DASHBOARD.md) - Guia MQTT + Dashboard
+A documentação completa da atividade encontra-se na pasta: <br>
+relatorios/ <br>
+O relatório apresenta: <br><br>
+•	Descrição do dataset; <br>
+•	Pipeline de pré-processamento; <br>
+•	Arquitetura dos modelos; <br>
+•	Métricas de avaliação; <br>
+•	Discussão dos resultados; <br>
+•	Conclusões. <br>
+
+
+## 📚 Vídeo
+Link do vídeo explicativo: https://www.loom.com/share/522823435b414e779c1e347a0d0d8772
+
 
 ---
 
-## 🗃 Histórico
 
-- **12.05.2026** - v1.0.0: Sistema completo (ESP32 + MQTT + Node-RED)
-- **14.04.2026** - v0.1.0: Prototipagem inicial
 
    
 
