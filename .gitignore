@@ -1,0 +1,22 @@
+# Dataset
+dataset/
+
+# Ambiente virtual
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
