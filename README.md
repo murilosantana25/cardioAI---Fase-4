@@ -48,14 +48,14 @@ Características:
 
 ## Tecnologias Utilizadas
 
-   •	Python 3.11
-   •	TensorFlow
-   •	Keras
-   •	NumPy
-   •	Matplotlib
-   •	Scikit-Learn
-   •	Jupyter Notebook
-   •	PyCharm
+   •	Python 3.11 <br>
+   •	TensorFlow <br>
+   •	Keras <br>
+   •	NumPy <br>
+   •	Matplotlib <br>
+   •	Scikit-Learn <br>
+   •	Jupyter Notebook <br>
+   •	PyCharm <br>
 
 ---
 
